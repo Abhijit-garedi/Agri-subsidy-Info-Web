@@ -1,0 +1,126 @@
+/* style.css */
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* White background for rest of the page */
+  color: #333;
+}
+
+header {
+  background-color: #2e7d32;
+  padding: 1rem 2rem 2rem 2rem; /* Slightly taller nav bar */
+  color: white;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-section {
+  display: flex;
+  flex-direction: column;
+}
+
+nav h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.group-info {
+  font-size: 0.9rem;
+  color: #ffeb3b;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url("image.jpg"); /* Local image used for hero */
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero.small-hero {
+  height: 45vh;
+}
+
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #81c784;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #66bb6a;
+}
+
+.section {
+  padding: 2rem 1.5rem;
+  text-align: center;
+  background-color: #ffffff; /* Ensure white background for all sections */
+}
+
+.scheme-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Space between buttons */
+  flex-wrap: wrap;
+}
+
+.scheme-buttons .btn {
+  background-color: #81c784;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  flex: 1 1 auto; /* Allow buttons to be responsive */
+}
+
+.scheme-buttons .btn:hover {
+  background-color: #66bb6a;
+}
+
+footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
